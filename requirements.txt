@@ -1,0 +1,23 @@
+# Framework
+fastapi
+uvicorn[standard]
+
+# Configuración
+pydantic-settings
+
+# Azure SDK
+azure-storage-file-datalake
+azure-identity
+aiohttp # Dependencia de azure-identity para async
+
+# Procesamiento de datos
+polars
+pyarrow # Dependencia de polars para escribir Parquet
+
+# Utilidades
+tenacity # Para reintentos
+python-json-logger # Para logging estructurado
+
+# Testing
+pytest
+httpx
